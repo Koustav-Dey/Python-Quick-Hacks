@@ -1,0 +1,10 @@
+import winshell
+from plyer import notification
+
+try:
+    winshell.recycle_bin().empty(confirm=True, show_progress = True, sound = True)
+    notification.notify(title="Bin",message = "Bin is Empty.", timeout=5)
+
+    
+except:
+    notification.notify(title="Bin",message = "Bin is already Empty.", timeout=5)
