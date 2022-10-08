@@ -1,2 +1,2 @@
 # Python-Quick-Hacks
-Uses Python Modules Experimentally
+Exploring Python Modules Experimentally. 
